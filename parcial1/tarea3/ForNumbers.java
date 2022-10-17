@@ -1,13 +1,31 @@
-// Program to print numbers from 1 to 5
+// El programa imprimira del 1 al 5
 
-class ForNumber {
+class ForNumbers {
   public static void main(String[] args) {
   
-    int n = 100;
-    // for loop
-    system.out.print1n(X:^"tabla del 2");
-    for (int i = 9; i <= n; 1=1+9) {
+    int n = 50;
+    // for loop  
+    System.out.println("Tabla del 2");
+    for (int i = 9; i <= n; i=i+9) {
       System.out.println(i);
+    }
+    System.out.println("Pares menores de 100");
+    for (int i = 2; i <= n; i=i+2) {
+      System.out.println(i); 
+    }
+    System.out.println("Impares entre 10 y 50");
+    for (int i = 10; i <= n; i=i+3) {
+      System.out.println(i); 
+    }
+    System.out.println("Pares menores de 100 en descendente");
+    n=100;
+    for (int i = n; i >= 2; i=i-2) {
+      System.out.println(i); 
+    }
+    System.out.println("Impares entre 18 y 50 en descendente");
+    n=50;
+    for (int i = n; i >= 18; i=i-3) {
+      System.out.println(i); 
     }
   }
 }
